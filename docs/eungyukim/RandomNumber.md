@@ -42,10 +42,7 @@ class Person:
         print("Name: ", self.name)
         print("Gender: ", self.gender)
         print("Age: ", self.age)
-        self.displayRandomNumber()
-
-    def displayRandomNumber(self):
-        print("Random Number: ", RandomNumber())
+        print("Random Number: ", self.randomNum)
 
     # 게임의 설명 출력
     def print_game_description(self):
