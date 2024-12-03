@@ -20,10 +20,7 @@ class Person:
         print("Name: ", self.name)
         print("Gender: ", self.gender)
         print("Age: ", self.age)
-        self.displayRandomNumber()
-
-    def displayRandomNumber(self):
-        print("Random Number: ", RandomNumber())
+        print("Random Number: ", self.randomNum)
 
     # 게임의 설명 출력
     def print_game_description(self):
@@ -36,7 +33,6 @@ class Person:
     def run_game(self):
         self.print_game_description()
         answer = self.randomNum
-        print("정답: ", answer)
         for i in range(3):
             guess = int(input("숫자를 입력하세요: "))
             if guess == answer:
