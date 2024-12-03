@@ -1,0 +1,52 @@
+# Crime Occurrence Pivot Analysis
+
+This code processes a dataset containing crime occurrence and detection statistics, calculates detection rates, and organizes the data into a pivot table for easier analysis.
+
+## Steps in the Code
+1. **Data Import and Prepartion**
+- Use 'pandas' to load crime occurrence data from an Excel file.
+- Use a mapping dictionary to map police station names ('관서명') to district names ('구별').
+- Add a new colum '구별' to DataFrame, assigning '구 없음' for unmapped values.
+
+2. **Pivot Table Creation**
+- Aggregate specific columns related to crime statistics ('colums_to_pivot') by district using 'pivot_talbe'
+- Remove districts labeled as '구 없음' from the pivot table.
+
+3. **Detection Rate Calculation**
+- Calculate detection rates for vaious crimes, including rape, robbery, murder, theft, and violence using the formula
+Detection Rate (%) = (Cases Detected / Cases Occurred) * 100
+
+4. **Colum Cleanup**
+- Use 'del' to remove the original detection and occurrence colums (e.g. , '강간(검거)', '강간(발생)').
+
+5. **Column Renaming**
+- Rename colums for clarity.
+
+## Purpose
+This transformation simplifies the analysis of crime data by district, enabling better interpretation and visualization of detection rates across different crime categories.
+
+# 범죄 발생 피벗 분석
+이 코드는 범죄 발생 및 검거 통계가 포함된 데이터셋을 처리하여, 검거율을 계산하고 피벗 테이블로 정리하여 더 쉽게 분석할 수 있도록 합니다.
+
+## 코드 단계
+1. **데이터 가져오기 및 준비**
+- pandas를 사용하여 엑셀 파일에서 범죄 발생 데이터를 불러옵니다.
+- 경찰서 이름(관서명)을 구 이름(구별)로 매핑하기 위해 매핑 딕셔너리를 사용합니다.
+- 새로운 열 구별을 데이터프레임에 추가하며, 매핑되지 않은 값은 구 없음으로 대체합니다.
+
+2. **피벗 테이블 생성**
+- 범죄 통계와 관련된 특정 열(colums_to_pivot)을 pivot_talbe로 사용해 구별로 집계합니다.
+- 구 없음 으로 표시된 구는 피벗 테이블에서 제거합니다.
+
+3. **검거율 계산**
+- 강간, 강도, 살인, 절도, 폭력 등 여러 범죄에 대한 검거율을 다음과 같이 계산합니다.
+Detection Rate (%) = (Cases Detected / Cases Occurred) * 100
+
+4. **컴럼 정리**
+- del을 사용해 원래의 검거 및 발생 열(강간(검거), 강간(발생))을 삭제합니다.
+
+5. **컬럼 이름 변경**
+- 컬럼 이름을 더 명확하게 변경합니다.
+
+## 목적
+구별로 범되 데이터를 분석하기 쉽게 만들어, 범죄 카테고리별 검거율을 보다 쉽게 해석하고 시각화할 수 있도록 합니다.
