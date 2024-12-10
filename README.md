@@ -6,6 +6,7 @@ This repository is dedicated to learning Python.
 
 ## Programers Python
 - [두 수의 차](docs/eungyukim/Substaction.md) - 두수의 차 구하기
+- [두 수의 곱](docs/eungyukim/programmers_120804.md) - 두수의 곱 구하기
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
