@@ -10,3 +10,4 @@ This repository is dedicated to learning Python.
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
+- [역순 정렬하기](docs/eungyukim/SQL_59035.md) -SQL 59035 문제
