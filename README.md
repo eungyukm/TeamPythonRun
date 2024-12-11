@@ -7,7 +7,9 @@ This repository is dedicated to learning Python.
 ## Programers Python
 - [두 수의 차](docs/eungyukim/Substaction.md) - 두수의 차 구하기
 - [두 수의 곱](docs/eungyukim/programmers_120804.md) - 두수의 곱 구하기
+- [숫자 비교하기](docs/eungyukim/algorithm_120807.md) - 숫자 비교하기
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
 - [역순 정렬하기](docs/eungyukim/SQL_59035.md) -SQL 59035 문제
+- [중복 제거하기](docs/eungyukim/SQL_59408.md) -SQL 59408 문제
