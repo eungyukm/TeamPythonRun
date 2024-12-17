@@ -10,6 +10,7 @@ This repository is dedicated to learning Python.
 - [숫자 비교하기](docs/eungyukim/algorithm_120807.md) - 숫자 비교하기
 - [나머지 구하기](docs/eungyukim/algorithm_120810.md) - 나머지 구하기
 - [나이 출력](docs/eungyukim/algorithm_120820.md) - algorithm 120820
+- [두수의 합](docs/eungyukim/algorithm_120802.md) - algorithm 120802
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
@@ -17,3 +18,4 @@ This repository is dedicated to learning Python.
 - [중복 제거하기](docs/eungyukim/SQL_59408.md) -SQL 59408 문제
 - [동물의 아이디와 이름](docs/eungyukim/SQL_50403.md) -SQL 50403 문제
 - [동명 동물 수 찾기](docs/eungyukim/SQL_59041.md) -SQL 59041 문제
+- [아픈 동물 찾기](docs/eungyukim/SQL_59036.md) -SQL 59036 문제
