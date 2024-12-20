@@ -6,7 +6,11 @@
 
 ### Source Code
 ```python
-def solution(num1, num2):
-    answer = num1 + num2
+def solution(n):
+    sum = 0
+    for a in range(n+1):
+        if a % 2 == 0:
+            sum += a
+    answer = sum
     return answer
 ```
