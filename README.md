@@ -12,7 +12,7 @@ This repository is dedicated to learning Python.
 - [나이 출력](docs/eungyukim/algorithm_120820.md) - algorithm 120820
 - [두수의 합](docs/eungyukim/algorithm_120802.md) - algorithm 120802
 - [두수의 나눗셈](docs/eungyukim/algorithm_120806.md) - algorithm 120806
-- [짝수의 합](docs/eungyukim/algorithm_120806.md) - algorithm 120831
+- [짝수의 합](docs/eungyukim/algorithm_120831.md) - algorithm 120831
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
