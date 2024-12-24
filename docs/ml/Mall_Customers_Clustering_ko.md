@@ -40,6 +40,7 @@ plt.xlabel('Number of Clusters (k)')
 plt.ylabel('WCSS')
 plt.show()
 ```
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Elbow.png)
 
 ## 계층적 군집화
 ### 데이터 불러오기 및 전처리
@@ -104,6 +105,8 @@ plt.show()
 # 클러스터 결과 확인
 print(df['Cluster'].value_counts())
 ```
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Dendrogram.png)
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Agglomerative.png)
 
 ## DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
 - 밀도 기반 클러스터링 알고리즘
@@ -144,3 +147,4 @@ plt.show()
 # 클러스터 결과 확인
 print(df['Cluster'].value_counts())
 ```
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/DBSCAN.png)
