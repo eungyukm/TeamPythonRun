@@ -59,6 +59,10 @@ plt.title('Linear Regression Predictions')
 plt.show()
 ```
 
+## Graph
+![House Price Prediction Graph](docs/images/Linear_Regression.png)
+
+
 ## 의사결정나무(Decision Tree)
 - **의사결정나무**는 데이터를 **트리 형태**로 분할하여 예측하는 지도 학습 알고리즘입니다.
 - 데이터의 특징(Feature)을 기준으로 데이터를 분할해 나가며, 분할이 더 이상 불가능하거나 조건을 만족할 때 예측 값을 도출합니다.
@@ -101,6 +105,9 @@ plt.title('Decision Tree Predictions')
 plt.show()
 ```
 
+## Graph
+![House Price Prediction Graph](docs/images/Decision_Tree.png)
+
 ## 랜덤 포레스트(Random Forest)
 - **랜덤 포레스트**는 **여러 개의 의사결정나무(Decision Tree)를 앙상블(Ensemble)하여 예측**하는 알고리즘입니다.
 - 각 트리는 **무작위로 샘플링**된 데이터와 특징을 사용해 독립적으로 학습됩니다.
@@ -138,6 +145,9 @@ plt.legend()
 plt.title('Random Forest Predictions')
 plt.show()
 ```
+
+## Graph
+![House Price Prediction Graph](docs/images/Random_Forest.png)
 
 ## 차이점
 | 항목                         | 의사결정나무                             | 랜덤 포레스트                          |
@@ -231,4 +241,5 @@ plt.legend(loc='upper right')
 plt.show()
 ```
 
-
+## Graph
+![House Price Prediction Graph](docs/images/metrics.png)
