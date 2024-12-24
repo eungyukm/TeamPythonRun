@@ -22,7 +22,7 @@
 ### R² Score
 - 모델이 데이터의 변동성을 얼마나 설명하는지 나타내는 지표.
 
-# 선형 회귀(Linear Regression)
+### 선형 회귀(Linear Regression)
 - 선형 회귀(Linear Regression)는 가장 기본적인 회귀 분석 방법으로, 종속 변수(y)와 하나 이상의 독립 변수(X) 간의 관계를 선형 방정식으로 모델링하는 기법입니다.
 
 ``` python
@@ -59,11 +59,11 @@ plt.title('Linear Regression Predictions')
 plt.show()
 ```
 
-# 의사결정나무(Decision Tree)
+## 의사결정나무(Decision Tree)
 - **의사결정나무**는 데이터를 **트리 형태**로 분할하여 예측하는 지도 학습 알고리즘입니다.
 - 데이터의 특징(Feature)을 기준으로 데이터를 분할해 나가며, 분할이 더 이상 불가능하거나 조건을 만족할 때 예측 값을 도출합니다.
 
-## 의사결정나무의 특징
+### 의사결정나무의 특징
 - **직관적**: 트리 형태로 데이터가 분할되므로 시각화가 쉽습니다.
 - **과적합(Overfitting)**: 깊은 트리를 생성할 경우 학습 데이터에 과적합되기 쉽습니다.
 - **비선형 데이터 처리**: 복잡한 비선형 관계를 잘 모델링할 수 있습니다.
@@ -150,7 +150,7 @@ plt.show()
 | **해석 가능성**            | 직관적, 시각화 용이                      | 해석이 어렵지만 성능이 뛰어남           |
 
 
-### Full Source
+## Full Source
 ``` python
 import pandas as pd
 import numpy as np
