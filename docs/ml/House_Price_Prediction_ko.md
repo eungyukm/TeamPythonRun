@@ -60,7 +60,7 @@ plt.show()
 ```
 
 ## Graph
-![House Price Prediction Graph](docs/images/Linear_Regression.png)
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Linear_Regression.png)
 
 
 ## 의사결정나무(Decision Tree)
@@ -106,7 +106,7 @@ plt.show()
 ```
 
 ## Graph
-![House Price Prediction Graph](docs/images/Decision_Tree.png)
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Decision_Tree.png)
 
 ## 랜덤 포레스트(Random Forest)
 - **랜덤 포레스트**는 **여러 개의 의사결정나무(Decision Tree)를 앙상블(Ensemble)하여 예측**하는 알고리즘입니다.
@@ -147,7 +147,7 @@ plt.show()
 ```
 
 ## Graph
-![House Price Prediction Graph](docs/images/Random_Forest.png)
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Random_Forest.png)
 
 ## 차이점
 | 항목                         | 의사결정나무                             | 랜덤 포레스트                          |
@@ -242,4 +242,4 @@ plt.show()
 ```
 
 ## Graph
-![House Price Prediction Graph](docs/images/metrics.png)
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/metrics.png)
