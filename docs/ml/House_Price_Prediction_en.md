@@ -59,6 +59,9 @@ plt.title('Linear Regression Predictions')
 plt.show()
 ```
 
+## Graph
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Linear_Regression.png)
+
 ## Decision Tree
 - Decision Trees predict outcomes by splitting data into branches based on feature values.
 - They split the data recursively until the stopping criteria are met, generating predictions at the leaf nodes.
@@ -95,6 +98,9 @@ plt.legend()
 plt.title('Decision Tree Predictions')
 plt.show()
 ```
+
+## Graph
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Decision_Tree.png)
 
 ## Random Forest
 - Random Forest is an ensemble algorithm combining multiple Decision Trees.
@@ -133,3 +139,101 @@ plt.legend()
 plt.title('Random Forest Predictions')
 plt.show()
 ```
+
+## Graph
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/Random_Forest.png)
+
+## Comparison
+| Feature                    | Decision Tree                           | Random Forest                        |
+|----------------------------|-----------------------------------------|---------------------------------------|
+| **Structure**              | Single Tree                             | Ensemble of Multiple Trees            |
+| **Overfitting**            | High Potential                         | Prevents Overfitting                  |
+| **Training Speed**         | Fast                                    | Slow (Requires Training Multiple Trees) |
+| **Prediction Accuracy**    | Low                                     | High                                  |
+| **Noise Sensitivity**      | Sensitive                               | Stable                                |
+| **Interpretability**       | Intuitive, Easy to Visualize            | Difficult to Interpret but High Performance |
+
+## Full Source Code
+```python
+import pandas as pd
+import numpy as np
+from sklearn.impute import KNNImputer
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+import matplotlib.pyplot as plt
+
+# Load Data
+file_path = 'data/housingdata.csv'
+data = pd.read_csv(file_path)
+
+# Handle Missing Values using KNN Imputation
+imputer = KNNImputer(n_neighbors=5)
+data_knn_filled = pd.DataFrame(imputer.fit_transform(data), columns=data.columns)
+
+# 2. Handle Outliers
+# Detect and Remove Outliers using IQR
+Q1 = data_knn_filled.quantile(0.25)
+Q3 = data_knn_filled.quantile(0.75)
+IQR = Q3 - Q1
+
+# Outlier Condition
+outlier_condition = (data_knn_filled < (Q1 - 1.5 * IQR)) | (data_knn_filled > (Q3 + 1.5 * IQR))
+
+# Remove Outliers
+data_cleaned = data_knn_filled[~outlier_condition.any(axis=1)]
+
+# 3. Train Linear Regression, Decision Tree, and Random Forest Models
+X = data_cleaned.drop(columns=['MEDV'])  # Features
+y = data_cleaned['MEDV']  # Target
+
+# Split Data into Train and Test Sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Initialize Models
+linear_model = LinearRegression()
+decision_tree_model = DecisionTreeRegressor(random_state=42)
+random_forest_model = RandomForestRegressor(random_state=42)
+
+# Train Models
+linear_model.fit(X_train, y_train)
+decision_tree_model.fit(X_train, y_train)
+random_forest_model.fit(X_train, y_train)
+
+# Make Predictions
+y_pred_linear = linear_model.predict(X_test)
+y_pred_tree = decision_tree_model.predict(X_test)
+y_pred_forest = random_forest_model.predict(X_test)
+
+# Evaluate Models
+mae_linear = mean_absolute_error(y_test, y_pred_linear)
+mse_linear = mean_squared_error(y_test, y_pred_linear)
+r2_linear = r2_score(y_test, y_pred_linear)
+
+mae_tree = mean_absolute_error(y_test, y_pred_tree)
+mse_tree = mean_squared_error(y_test, y_pred_tree)
+r2_tree = r2_score(y_test, y_pred_tree)
+
+mae_forest = mean_absolute_error(y_test, y_pred_forest)
+mse_forest = mean_squared_error(y_test, y_pred_forest)
+r2_forest = r2_score(y_test, y_pred_forest)
+
+# Visualize Model Performance
+metrics = pd.DataFrame({
+    'MAE': [mae_linear, mae_tree, mae_forest],
+    'MSE': [mse_linear, mse_tree, mse_forest],
+    'R2 Score': [r2_linear, r2_tree, r2_forest]
+}, index=['Linear Regression', 'Decision Tree', 'Random Forest'])
+
+metrics.plot(kind='bar', figsize=(10, 6))
+plt.title('Model Performance Comparison')
+plt.ylabel('Error / Score')
+plt.xticks(rotation=0)
+plt.legend(loc='upper right')
+plt.show()
+```
+
+## Graph
+![](https://github.com/eungyukm/TeamPythonRun/blob/main/docs/images/metrics.png)
