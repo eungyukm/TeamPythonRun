@@ -6,7 +6,7 @@
 - [House_Price_Preiction_en](docs/ml/House_Price_Prediction_en.md)
 - [House_Price_Preiction_ko](docs/ml/House_Price_Prediction_ko.md)
 - [Mall_Customer_Clustering_en](docs/ml/Mall_Customer_Clustering_en.md)
-- [Mall_Customer_Clustering_ko](docs/ml/Mall_Customer_Clustering_ko.md)
+- [Mall_Customer_Clustering_ko](docs/ml/Mall_Customers_Clustering_ko.md)
 
 ## Programers Python
 - [두 수의 차](docs/eungyukim/Substaction.md) - 두수의 차 구하기
