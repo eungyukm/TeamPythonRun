@@ -15,6 +15,7 @@ This repository is dedicated to learning Python.
 - [짝수의 합](docs/eungyukim/algorithm_120831.md) - algorithm 120831
 - [배열의 평균값](docs/eungyukim/algorithm_120817.md) - algorithm 120817
 - [머쓱이보다 키 큰 사람](docs/eungyukim/algorithm_120585.md) - algorithm 120585
+- [배열 원소의 길이](docs/eungyukim/algorithm_120854.md) - algorithm 120854
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
@@ -27,3 +28,4 @@ This repository is dedicated to learning Python.
 - [어린 동물 찾기](docs/eungyukim/SQL_59037.md) -SQL 59037 문제
 - [여러 기준으로 정렬하기](docs/eungyukim/SQL_59404.md) -SQL 59404 문제
 - [이름에 el이 들어가는 동물 찾기](docs/eungyukim/SQL_59408.md) -SQL 59408 문제
+- [나이 정보가 없는 회원 수 구하기](docs/eungyukim/SQL_131528.md) -SQL 131528 문제
