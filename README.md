@@ -22,6 +22,7 @@
 - [배열 원소의 길이](docs/eungyukim/algorithm_120854.md) - algorithm 120854
 - [배열 뒤집기](docs/eungyukim/algorithm_120821.md) - algorithm 120821
 - [중복된 숫자 개수](docs/eungyukim/algorithm_120583.md) - algorithm 120583
+- [배열자르기](docs/eungyukim/algorithm_120833.md) - algorithm 120833
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
@@ -37,3 +38,4 @@
 - [나이 정보가 없는 회원 수 구하기](docs/eungyukim/SQL_131528.md) -SQL 131528 문제
 - [가장 비싼 상품 구하기](docs/eungyukim/SQL_131697.md) - SQL 131697
 - [NULL 처리하기](docs/eungyukim/SQL_59410.md) - SQL 131697
+- [경기도에 위치한 식품창고 목록 출력](docs/eungyukim/SQL_131114.md) - SQL 131114
