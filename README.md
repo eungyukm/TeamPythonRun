@@ -24,6 +24,7 @@
 - [중복된 숫자 개수](docs/eungyukim/algorithm_120583.md) - algorithm 120583
 - [배열자르기](docs/eungyukim/algorithm_120833.md) - algorithm 120833
 - [문자열 뒤집기](docs/eungyukim/algorithm_120822.md) - algorithm 120822
+- [편지](docs/eungyukim/algorithm_120898.md) - algorithm 120898
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
@@ -41,3 +42,4 @@
 - [NULL 처리하기](docs/eungyukim/SQL_59410.md) - SQL 131697
 - [경기도에 위치한 식품창고 목록 출력](docs/eungyukim/SQL_131114.md) - SQL 131114
 - [강원도에 위치한 생산공장 목록 출력하기](docs/eungyukim/SQL_131112.md) - SQL 131112
+- [DATETIME에서 DATE로 형 변환](docs/eungyukim/SQL_59414.md) - SQL 59414
