@@ -48,4 +48,4 @@
 - [DATETIME에서 DATE로 형 변환](docs/eungyukim/SQL_59414.md) - SQL 59414
 - [가격이 제일 비싼 식품의 정보 출력하기](docs/eungyukim/SQL_131115.md) - SQL 131115
 - [이름이 없는 동물의 아이디](docs/eungyukim/SQL_59039.md) - SQL 59039
-- [아이스 아메리카노](docs/eungyukim/SQL_120819.md) - SQL 120819
+- [	조건에 맞는 회원수 구하기](docs/eungyukim/SQL_131535.md) - SQL 131535
