@@ -28,6 +28,7 @@
 - [문자열안에 문자열](docs/eungyukim/algorithm_120908.md) - algorithm 120908
 - [특정 문자 제거하기](docs/eungyukim/algorithm_120826.md) - algorithm 120826
 - [아이스 아메리카노](docs/eungyukim/algorithm_120819.md) - algorithm 120819
+- [피자 나눠 먹기 (1)](docs/eungyukim/algorithm_120814.md) - algorithm 120814
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
@@ -48,4 +49,5 @@
 - [DATETIME에서 DATE로 형 변환](docs/eungyukim/SQL_59414.md) - SQL 59414
 - [가격이 제일 비싼 식품의 정보 출력하기](docs/eungyukim/SQL_131115.md) - SQL 131115
 - [이름이 없는 동물의 아이디](docs/eungyukim/SQL_59039.md) - SQL 59039
-- [	조건에 맞는 회원수 구하기](docs/eungyukim/SQL_131535.md) - SQL 131535
+- [조건에 맞는 회원수 구하기](docs/eungyukim/SQL_131535.md) - SQL 131535
+- [중성화 여부 파악하기](docs/eungyukim/SQL_59409.md) - SQL 59409
