@@ -30,6 +30,8 @@
 - [아이스 아메리카노](docs/eungyukim/algorithm_120819.md) - algorithm 120819
 - [피자 나눠 먹기 (1)](docs/eungyukim/algorithm_120814.md) - algorithm 120814
 - [최댓값 만들기(1)](docs/eungyukim/algorithm_120847.md) - algorithm 120847
+- [배열 두 배 만들기](docs/eungyukim/algorithm_120809.md) - algorithm 120809
+
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
@@ -53,3 +55,4 @@
 - [조건에 맞는 회원수 구하기](docs/eungyukim/SQL_131535.md) - SQL 131535
 - [중성화 여부 파악하기](docs/eungyukim/SQL_59409.md) - SQL 59409
 - [고양이와 개는 몇 마리 있을까](docs/eungyukim/SQL_59040.md) - SQL 59040
+- [입양 시각 구하기(1)](docs/eungyukim/SQL_59412.md) - SQL 59412
