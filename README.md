@@ -31,6 +31,7 @@
 - [피자 나눠 먹기 (1)](docs/eungyukim/algorithm_120814.md) - algorithm 120814
 - [최댓값 만들기(1)](docs/eungyukim/algorithm_120847.md) - algorithm 120847
 - [배열 두 배 만들기](docs/eungyukim/algorithm_120809.md) - algorithm 120809
+- [피자 나눠 먹기 (3)](docs/eungyukim/algorithm_120816.md) - algorithm 120816
 
 
 ## Programers SQL
@@ -56,3 +57,4 @@
 - [중성화 여부 파악하기](docs/eungyukim/SQL_59409.md) - SQL 59409
 - [고양이와 개는 몇 마리 있을까](docs/eungyukim/SQL_59040.md) - SQL 59040
 - [입양 시각 구하기(1)](docs/eungyukim/SQL_59412.md) - SQL 59412
+- [진료과별 총 예약 횟수 출력하기](docs/eungyukim/SQL_132202.md) - SQL 59412
