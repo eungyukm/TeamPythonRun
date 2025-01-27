@@ -32,6 +32,7 @@
 - [최댓값 만들기(1)](docs/eungyukim/algorithm_120847.md) - algorithm 120847
 - [배열 두 배 만들기](docs/eungyukim/algorithm_120809.md) - algorithm 120809
 - [피자 나눠 먹기 (3)](docs/eungyukim/algorithm_120816.md) - algorithm 120816
+- [짝수 홀수 개수](docs/eungyukim/algorithm_120824.md) - algorithm 120824
 
 
 ## Programers SQL
@@ -58,3 +59,4 @@
 - [고양이와 개는 몇 마리 있을까](docs/eungyukim/SQL_59040.md) - SQL 59040
 - [입양 시각 구하기(1)](docs/eungyukim/SQL_59412.md) - SQL 59412
 - [진료과별 총 예약 횟수 출력하기](docs/eungyukim/SQL_132202.md) - SQL 59412
+- [12세 이하인 여자 환자 목록 출력하기](docs/eungyukim/SQL_132201.md) - SQL 132201
