@@ -36,6 +36,7 @@
 - [자릿수 더하기](docs/eungyukim/algorithm_120906.md) - algorithm 120906
 - [배열의 유사도](docs/eungyukim/algorithm_120903.md) - algorithm 120903
 - [양꼬치](docs/eungyukim/algorithm_120830.md) - algorithm 120830
+- [세균 증식](docs/eungyukim/algorithm_120910.md) - algorithm 120910
 
 
 ## Programers SQL
@@ -65,4 +66,5 @@
 - [12세 이하인 여자 환자 목록 출력하기](docs/eungyukim/SQL_132201.md) - SQL 132201
 - [인기있는 아이스크림](docs/eungyukim/SQL_133024.md) - SQL 133024
 - [자동차 종류 별 특정 옵션이 포함된 자동차 수 구하기](docs/eungyukim/SQL_151137.md) - SQL 151137
-- [오랜 기간 보호한 동물(1)	](docs/eungyukim/SQL_59044.md) - SQL 59044
+- [오랜 기간 보호한 동물(1)](docs/eungyukim/SQL_59044.md) - SQL 59044
+- [카테고리 별 도서 판매량 집계하기](docs/eungyukim/SQL_144855.md) - SQL 144855
