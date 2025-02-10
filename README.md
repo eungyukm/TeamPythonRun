@@ -37,6 +37,7 @@
 - [배열의 유사도](docs/eungyukim/algorithm_120903.md) - algorithm 120903
 - [양꼬치](docs/eungyukim/algorithm_120830.md) - algorithm 120830
 - [세균 증식](docs/eungyukim/algorithm_120910.md) - algorithm 120910
+- [삼각형의 완성조건 (1)](docs/eungyukim/algorithm_120889.md) - algorithm 120889
 
 
 ## Programers SQL
@@ -68,3 +69,4 @@
 - [자동차 종류 별 특정 옵션이 포함된 자동차 수 구하기](docs/eungyukim/SQL_151137.md) - SQL 151137
 - [오랜 기간 보호한 동물(1)](docs/eungyukim/SQL_59044.md) - SQL 59044
 - [카테고리 별 도서 판매량 집계하기](docs/eungyukim/SQL_144855.md) - SQL 144855
+- [상품 별 오프라인 매출 구하기](docs/eungyukim/SQL_131533.md) - SQL 131533
