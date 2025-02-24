@@ -45,7 +45,7 @@
 - [역순 정렬하기](docs/eungyukim/SQL_59035.md) -SQL 59035 문제
 - [중복 제거하기](docs/eungyukim/SQL_59408.md) -SQL 59408 문제
 - [동물의 아이디와 이름](docs/eungyukim/SQL_50403.md) -SQL 50403 문제
-- [동물 수 찾기](docs/eungyukim/SQL_59041.md) -SQL 59041 문제
+- [동명 동물 수 찾기](docs/eungyukim/SQL_59041.md) -SQL 59041 문제
 - [아픈 동물 찾기](docs/eungyukim/SQL_59036.md) -SQL 59036 문제
 - [상위 n개 레코드](docs/eungyukim/SQL_59405.md) -SQL 59405 문제
 - [어린 동물 찾기](docs/eungyukim/SQL_59037.md) -SQL 59037 문제
