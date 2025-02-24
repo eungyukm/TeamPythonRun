@@ -38,7 +38,7 @@
 - [양꼬치](docs/eungyukim/algorithm_120830.md) - algorithm 120830
 - [세균 증식](docs/eungyukim/algorithm_120910.md) - algorithm 120910
 - [삼각형의 완성조건 (1)](docs/eungyukim/algorithm_120889.md) - algorithm 120889
-
+- [중앙값 구하기](docs/eungyukim/algorithm_120811.md) - algorithm 120811
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
@@ -70,3 +70,4 @@
 - [오랜 기간 보호한 동물(1)](docs/eungyukim/SQL_59044.md) - SQL 59044
 - [카테고리 별 도서 판매량 집계하기](docs/eungyukim/SQL_144855.md) - SQL 144855
 - [상품 별 오프라인 매출 구하기](docs/eungyukim/SQL_131533.md) - SQL 131533
+- [있었는데요 없었습니다](docs/eungyukim/SQL_59043.md) - SQL 59043
