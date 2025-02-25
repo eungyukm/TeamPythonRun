@@ -71,3 +71,4 @@
 - [카테고리 별 도서 판매량 집계하기](docs/eungyukim/SQL_144855.md) - SQL 144855
 - [상품 별 오프라인 매출 구하기](docs/eungyukim/SQL_131533.md) - SQL 131533
 - [있었는데요 없었습니다](docs/eungyukim/SQL_59043.md) - SQL 59043
+- [입양 시각 구하기(2)](docs/eungyukim/SQL_59413.md) - SQL 59413
