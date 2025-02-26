@@ -40,6 +40,7 @@
 - [삼각형의 완성조건 (1)](docs/eungyukim/algorithm_120889.md) - algorithm 120889
 - [중앙값 구하기](docs/eungyukim/algorithm_120811.md) - algorithm 120811
 - [짝수는 싫어요](docs/eungyukim/algorithm_120813.md) - algorithm 120813
+- [순서쌍의 개수](docs/eungyukim/algorithm_120836.md) - algorithm 120836
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
