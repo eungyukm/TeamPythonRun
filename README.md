@@ -74,3 +74,4 @@
 - [상품 별 오프라인 매출 구하기](docs/eungyukim/SQL_131533.md) - SQL 131533
 - [있었는데요 없었습니다](docs/eungyukim/SQL_59043.md) - SQL 59043
 - [입양 시각 구하기(2)](docs/eungyukim/SQL_59413.md) - SQL 59413
+- [보호소에서 중성화한 동물](docs/eungyukim/SQL_59045.md) - SQL 59045
