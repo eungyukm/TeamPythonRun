@@ -42,6 +42,7 @@
 - [짝수는 싫어요](docs/eungyukim/algorithm_120813.md) - algorithm 120813
 - [순서쌍의 개수](docs/eungyukim/algorithm_120836.md) - algorithm 120836
 - [모음 제거](docs/eungyukim/algorithm_120849.md) - algorithm 120849
+- [문자 반복 출력하기](docs/eungyukim/algorithm_120825.md) - algorithm 120825
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
