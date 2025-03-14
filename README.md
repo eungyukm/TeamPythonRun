@@ -45,6 +45,7 @@
 - [문자 반복 출력하기](docs/eungyukim/algorithm_120825.md) - algorithm 120825
 - [옷가게 할인 받기](docs/eungyukim/algorithm_120818.md) - algorithm 120818
 - [제곱수 판별하기](docs/eungyukim/algorithm_120909.md) - algorithm 120909
+- [숨어있는 숫자의 덧셈 (1)](docs/eungyukim/algorithm_120851.md) - algorithm 120851
 
 ## Programers SQL
 - [이름이 있는 동물 아이디](docs/eungyukim/SQL_59407.md) -SQL 59407 문제
