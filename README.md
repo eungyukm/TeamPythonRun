@@ -81,3 +81,4 @@
 - [입양 시각 구하기(2)](docs/eungyukim/SQL_59413.md) - SQL 59413
 - [보호소에서 중성화한 동물](docs/eungyukim/SQL_59045.md) - SQL 59045
 - [조건에 맞는 도서와 저자 리스트 출력](docs/eungyukim/SQL_144854.md) - SQL 144854
+- [상품 별 오프라인 매출 구하기](docs/eungyukim/SQL_131113.md) - SQL 131113
